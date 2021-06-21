@@ -1,0 +1,59 @@
+.home-page{
+    display: flex;
+}
+.side-bar{
+    width: 50%;
+    height: 106vh;
+    background-color: blue;
+}
+.sidebar-tex{
+    text-align: center;
+}
+.sidebar-icon{
+    position: relative;
+   
+}
+.icon{
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+.sidebar-icon::after{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    z-index: 3;
+}
+.sidebar-bottom{
+    margin-left: 20%;
+}
+.about{
+    display: flex;
+}
+.sidbar-icon{
+    margin: 10%;
+    font-size: 20px;
+}
+.about h5{
+    color: wheat;
+}
+.btn{
+    background: transparent;
+    padding: 5px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+}
+.btn-icon{
+    padding-right: 15px;
+    font-size: 20px;
+}
